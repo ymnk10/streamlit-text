@@ -2,7 +2,7 @@ import os
 from google.cloud import speech
 #import io
 import streamlit as st
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'secret.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] ='http://localhost:8888/lab/tree/secret.json'
 
 def transcribe_file(content, lang='日本語'):
   lang_code = {
