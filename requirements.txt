@@ -1,1 +1,2 @@
 streamlit
+upgrade google-cloud-speech
