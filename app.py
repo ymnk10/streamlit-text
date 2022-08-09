@@ -1,4 +1,5 @@
 import os
+!pip3 install google-cloud-speech
 from google.cloud import speech
 #import io
 import streamlit as st
